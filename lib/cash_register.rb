@@ -7,5 +7,5 @@ class CashRegister
     item = []
   end
   
-  
+  def self
 end
