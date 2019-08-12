@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :cash_register,
+  attr_accessor :total, :
   
   def initialize()
     
