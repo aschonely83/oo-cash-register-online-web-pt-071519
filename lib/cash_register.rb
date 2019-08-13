@@ -11,7 +11,7 @@ class CashRegister
     self.total += amount * quantity
     quantity.times do
     items << title
-    
+  end
   end
   
   def apply_discount
