@@ -12,7 +12,7 @@ class CashRegister
     quantity.times do
     items << title
   end
-  self.last_transaction = amount * quanity
+  self.last_transaction_amount = amount * quanity
   end
   
   def apply_discount
