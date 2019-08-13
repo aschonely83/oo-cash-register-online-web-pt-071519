@@ -8,6 +8,7 @@ class CashRegister
   end
   
   def add_item(title,price,quantity = 1)
-    item[title,price,quanity]
+    item[title,price,quanity] || []
+    
   end  
 end
