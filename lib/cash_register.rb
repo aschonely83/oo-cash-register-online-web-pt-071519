@@ -17,7 +17,7 @@ class CashRegister
   end
   
   def apply_discount
-    
+    if 
   end
   
   def void_last_transaction
